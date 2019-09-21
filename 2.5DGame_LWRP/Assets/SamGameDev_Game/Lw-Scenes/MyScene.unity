@@ -170,8 +170,6 @@ MonoBehaviour:
     m_OnCameraLive:
       m_PersistentCalls:
         m_Calls: []
-      m_TypeName: Cinemachine.CinemachineBrain+VcamActivatedEvent, Cinemachine, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 585674100}
 --- !u!4 &25364132
@@ -181,7 +179,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 25364130}
-  m_LocalRotation: {x: 0.028770072, y: -0.68419594, z: 0.027029006, w: 0.7282291}
+  m_LocalRotation: {x: 0.02887663, y: -0.6813136, z: 0.026915133, w: 0.73092645}
   m_LocalPosition: {x: 5.999992, y: 1.5538595, z: 0.0076515293}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -616,7 +614,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: 0.028770074, y: -0.68419594, z: 0.027029008, w: 0.72822917}
+  m_LocalRotation: {x: 0.02887663, y: -0.6813136, z: 0.026915135, w: 0.7309265}
   m_LocalPosition: {x: 5.999992, y: 1.5538595, z: 0.0076515293}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -713,13 +711,9 @@ MonoBehaviour:
   m_CameraCutEvent:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Cinemachine.CinemachineBrain+BrainEvent, Cinemachine, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Cinemachine.CinemachineBrain+VcamActivatedEvent, Cinemachine, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &585674099
 GameObject:
   m_ObjectHideFlags: 3
@@ -976,8 +970,6 @@ MonoBehaviour:
     m_OnCameraLive:
       m_PersistentCalls:
         m_Calls: []
-      m_TypeName: Cinemachine.CinemachineBrain+VcamActivatedEvent, Cinemachine, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 196738736}
 --- !u!4 &620853237
@@ -987,7 +979,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 620853235}
-  m_LocalRotation: {x: 0.028770074, y: -0.68419594, z: 0.027029008, w: 0.72822917}
+  m_LocalRotation: {x: 0.02887663, y: -0.6813136, z: 0.026915135, w: 0.7309265}
   m_LocalPosition: {x: 5.999992, y: 1.5538595, z: 0.0076515293}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
