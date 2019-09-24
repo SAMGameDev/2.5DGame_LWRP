@@ -137,15 +137,21 @@ namespace MyGame
 
             foreach (Collider c in colliders)
             {
+
                 if (c.gameObject != this.gameObject)
                 {
-                    c.isTrigger = true;
-                    RagdollParts.Add(c);
-
-                    if (c.GetComponent<TriggerDector>() == null)
+                    if (c.gameObject.GetComponent<LedgeChecker>() == null)
                     {
-                        c.gameObject.AddComponent<TriggerDector>();
+                        c.isTrigger = true;
+                        RagdollParts.Add(c);
+
+                        if (c.GetComponent<TriggerDector>() == null)
+                        {
+                            c.gameObject.AddComponent<TriggerDector>();
+                        }
                     }
+
+
                 }
             }
         }
@@ -167,7 +173,7 @@ namespace MyGame
 
         public void SetColliderSpheres()
         {
-           BoxCollider box = GetComponent<BoxCollider>();
+            BoxCollider box = GetComponent<BoxCollider>();
 
             float bottom = box.bounds.center.y - box.bounds.size.y / 2;
             float top = box.bounds.center.y + box.bounds.size.y / 2;
