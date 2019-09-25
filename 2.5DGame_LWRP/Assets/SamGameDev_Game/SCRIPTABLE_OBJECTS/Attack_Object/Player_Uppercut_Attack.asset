@@ -16,6 +16,7 @@ MonoBehaviour:
   EndAttackTime: 0.9
   ColliderNames:
   - mixamorig:RightHand
+  - RightHand
   LaunchintoAir: 1
   MustCollide: 1
   MustFaceAttacker: 0

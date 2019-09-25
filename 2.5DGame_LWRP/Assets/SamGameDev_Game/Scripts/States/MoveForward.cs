@@ -16,7 +16,7 @@ namespace MyGame
         public bool AllowEarlyTurn;
         public AnimationCurve speedGraph;
         public float speed;
-        public float BlockDistance;
+        protected float BlockDistance = 0.1f;
 
         public override void OnEnter(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
         {

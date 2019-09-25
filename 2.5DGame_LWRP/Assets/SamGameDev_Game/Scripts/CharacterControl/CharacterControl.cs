@@ -25,10 +25,7 @@ namespace MyGame
 
     public class CharacterControl : MonoBehaviour
     {
-
-        // public Material material;
-
-        public Animator SkinnedMeshedAnimator;
+        [Header("Inputs")]
         public bool MoveRight;
         public bool MoveLeft;
         public bool MoveUp;
@@ -36,23 +33,32 @@ namespace MyGame
         public bool Jump;
         public bool Attack;
         public bool Running;
+
+        [Header("Sub Components")]
         public LedgeChecker ledgeChecker;
         public AnimationProgress animationProgress;
         public AIProgress aiProgress;
-        //AI Attack Temp
         public DamageDetector damageDetector;
+        //AI Attack Temp
 
         public GameObject ColliderEdgePrefab;
         public List<GameObject> BottomSpheres = new List<GameObject>();
         public List<GameObject> FrontSpheres = new List<GameObject>();
-        public List<Collider> RagdollParts = new List<Collider>();
 
         // public List<Collider> CollidingParts = new List<Collider>();
 
+        [Header("Gravity For Jump")]
         public float gravityMultiplier;
         public float pullMultiplier;
 
         private List<TriggerDector> TriggerDectors = new List<TriggerDector>();
+
+        // public Material material;
+        [Header("Set Up")]
+        public Animator SkinnedMeshedAnimator;
+        public List<Collider> RagdollParts = new List<Collider>();
+        public GameObject Left_HandAttack;
+        public GameObject Right_HandAttack;
 
         private Rigidbody rigid;
 

@@ -23,6 +23,7 @@ namespace MyGame
                 characterState.GetCharacterControl(animator).RIGIBODY.AddForce(Vector3.up * JumpForce);
                 control.animationProgress.Jumped = true;
             }
+
             animator.SetBool(TransitionParameter.Grounded.ToString(), false);
         }
 

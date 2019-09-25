@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Constant: 1
   LockDirection: 1
+  AllowEarlyTurn: 0
   speedGraph:
     serializedVersion: 2
     m_Curve:
@@ -39,4 +40,3 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   speed: 3
-  BlockDistance: 0
