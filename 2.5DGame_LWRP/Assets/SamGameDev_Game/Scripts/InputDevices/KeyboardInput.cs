@@ -62,7 +62,7 @@ namespace MyGame
                 VirtualInputManger.Instance.Jump = false;
             }
 
-            if (Input.GetKeyDown(KeyCode.Return))
+            if (Input.GetKeyDown(KeyCode.Mouse0))
             {
                 VirtualInputManger.Instance.Attack = true;
             }
