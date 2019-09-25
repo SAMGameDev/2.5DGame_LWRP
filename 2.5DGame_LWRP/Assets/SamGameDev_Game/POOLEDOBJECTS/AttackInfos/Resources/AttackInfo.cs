@@ -8,7 +8,8 @@ namespace MyGame
     {
         public CharacterControl Attacker = null;
         public Attack AttackAbility;
-        public List<string> ColliderNames = new List<string>();
+        // public List<string> ColliderNames = new List<string>();
+        public List<Attack_BodyParts> AttackParts = new List<Attack_BodyParts>();
         public bool LaunchintoAir;
 
         public bool MustCollide;
@@ -31,7 +32,7 @@ namespace MyGame
             isRegisterd = true;
 
             AttackAbility = attack;
-            ColliderNames = attack.ColliderNames;
+            AttackParts = attack.attack_BodyParts;
             LaunchintoAir = attack.LaunchintoAir;
             MustCollide = attack.MustCollide;
             MustFaceAttacker = attack.MustFaceAttacker;

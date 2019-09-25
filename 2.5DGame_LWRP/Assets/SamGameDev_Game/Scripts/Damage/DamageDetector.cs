@@ -67,11 +67,19 @@ namespace MyGame
             {
                 foreach (Collider collider in trigger.CollidingParts)
                 {
-                    foreach (string name in info.ColliderNames)
+                    foreach (Attack_BodyParts part in info.AttackParts)
                     {
-                        if (name.Equals(collider.gameObject.name))
+                        if (part == Attack_BodyParts.LEFT_HAND)
                         {
-                            if(collider.transform.root.gameObject == info.Attacker.gameObject)
+                            if (collider.gameObject == info.Attacker.Left_HandAttack)
+                            {
+                                DamagedPart = trigger.generalBodyParts;
+                                return true;
+                            }
+                        }
+                        else if (part == Attack_BodyParts.RIGHT_HAND)
+                        {
+                            if (collider.gameObject == info.Attacker.Right_HandAttack)
                             {
                                 DamagedPart = trigger.generalBodyParts;
                                 return true;
@@ -85,7 +93,7 @@ namespace MyGame
 
         private void TakeDamage(AttackInfo info)
         {
-            if(DamageTaken > 0)
+            if (DamageTaken > 0)
             {
                 return;
             }
@@ -95,7 +103,7 @@ namespace MyGame
             Debug.Log(info.Attacker.gameObject.name + " hits: " + this.gameObject.name);
             Debug.Log(this.gameObject.name + " hit: " + DamagedPart.ToString());
 
-          
+
             control.SkinnedMeshedAnimator.runtimeAnimatorController = DeathAnimationManger.Instance.GetAnimator(DamagedPart, info);
             info.CurrentHits++;
 
@@ -104,7 +112,7 @@ namespace MyGame
             control.RIGIBODY.useGravity = false;
 
             DamageTaken++;
-           
+
         }
     }
 

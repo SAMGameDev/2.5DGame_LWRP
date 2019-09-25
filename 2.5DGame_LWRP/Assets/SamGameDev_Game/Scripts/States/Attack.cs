@@ -4,12 +4,19 @@ using UnityEngine;
 
 namespace MyGame
 {
+    public enum Attack_BodyParts
+    {
+        LEFT_HAND,
+        RIGHT_HAND,
+    }
+
     [CreateAssetMenu(fileName = "New State", menuName = "SamGame/AbilityData/Attack")]
     public class Attack : StatetData
     {
         public float StartAttackTime;
         public float EndAttackTime;
-        public List<string> ColliderNames = new List<string>();
+        //  public List<string> ColliderNames = new List<string>();
+        public List<Attack_BodyParts> attack_BodyParts = new List<Attack_BodyParts>();
         public bool LaunchintoAir;
         public bool MustCollide;
         public bool MustFaceAttacker;
@@ -82,12 +89,12 @@ namespace MyGame
 
         public void CheckCombo(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
         {
-            if(stateInfo.normalizedTime >= StartAttackTime + ((EndAttackTime - StartAttackTime)/3f))
+            if (stateInfo.normalizedTime >= StartAttackTime + ((EndAttackTime - StartAttackTime) / 3f))
             {
-                if(stateInfo.normalizedTime < EndAttackTime + ((EndAttackTime - StartAttackTime) / 2f))
+                if (stateInfo.normalizedTime < EndAttackTime + ((EndAttackTime - StartAttackTime) / 2f))
                 {
                     CharacterControl control = characterState.GetCharacterControl(animator);
-                    if(control.Attack)
+                    if (control.Attack)
                     {
                         Debug.Log("upper cut is done");
                         animator.SetBool(TransitionParameter.Attack.ToString(), true);
