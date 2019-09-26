@@ -179,8 +179,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 25364130}
-  m_LocalRotation: {x: 0.03034669, y: -0.6860113, z: 0.028658105, w: 0.7263926}
-  m_LocalPosition: {x: 5.4999914, y: 1.4534054, z: 2.1474512}
+  m_LocalRotation: {x: 0.030447494, y: -0.6834471, z: 0.02855098, w: 0.72880584}
+  m_LocalPosition: {x: 5.4999914, y: 1.4534054, z: 0.017451156}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 585674100}
@@ -594,8 +594,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: 0.030346438, y: -0.6860113, z: 0.02865837, w: 0.72639275}
-  m_LocalPosition: {x: 5.4999914, y: 1.4534054, z: 2.1474512}
+  m_LocalRotation: {x: 0.030447243, y: -0.6834472, z: 0.028551245, w: 0.7288057}
+  m_LocalPosition: {x: 5.4999914, y: 1.4534054, z: 0.017451156}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1050,8 +1050,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 620853235}
-  m_LocalRotation: {x: 0.030346438, y: -0.6860113, z: 0.02865837, w: 0.72639275}
-  m_LocalPosition: {x: 5.4999914, y: 1.4534054, z: 2.1474512}
+  m_LocalRotation: {x: 0.030447243, y: -0.6834472, z: 0.028551245, w: 0.7288057}
+  m_LocalPosition: {x: 5.4999914, y: 1.4534054, z: 0.017451156}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 196738736}
@@ -1722,6 +1722,31 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1292290754}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1488644199 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 303115722334520557, guid: f29d70330a20cfc498fb6ab9b9ec78e4,
+    type: 3}
+  m_PrefabInstance: {fileID: 574974490666342616}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1488644201
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488644199}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 05d270bb148aece41b4e609f6dce6901, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1529463577
 GameObject:
   m_ObjectHideFlags: 0
@@ -2152,12 +2177,12 @@ PrefabInstance:
     - target: {fileID: 5449184997701366301, guid: f29d70330a20cfc498fb6ab9b9ec78e4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5449184997701366301, guid: f29d70330a20cfc498fb6ab9b9ec78e4,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 12.41
+      value: 10.74
       objectReference: {fileID: 0}
     - target: {fileID: 5449184997701366301, guid: f29d70330a20cfc498fb6ab9b9ec78e4,
         type: 3}
@@ -2199,6 +2224,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 574974491726600224, guid: f29d70330a20cfc498fb6ab9b9ec78e4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f29d70330a20cfc498fb6ab9b9ec78e4, type: 3}
 --- !u!1001 &5597873399470503768
@@ -2226,7 +2256,7 @@ PrefabInstance:
     - target: {fileID: 5722832907878616935, guid: 1db93fb196b718c498f2619edc4f4d6b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -3.291
       objectReference: {fileID: 0}
     - target: {fileID: 5722832907878616935, guid: 1db93fb196b718c498f2619edc4f4d6b,
         type: 3}
@@ -2295,7 +2325,7 @@ PrefabInstance:
     - target: {fileID: 5505048711592220101, guid: 2014addaa755a394ca6048e162bf5802,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.13
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5505048711592220101, guid: 2014addaa755a394ca6048e162bf5802,
         type: 3}

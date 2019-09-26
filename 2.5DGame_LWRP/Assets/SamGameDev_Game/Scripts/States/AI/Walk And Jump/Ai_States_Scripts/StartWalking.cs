@@ -75,7 +75,7 @@ namespace MyGame
                         animator.gameObject.SetActive(true);
                     }
                     //temp attack
-                    else
+                  /*  else
                     {
                         if(CharacterManager.Instance.GetPlayableCharacter().damageDetector.DamageTaken == 0)
                         {
@@ -99,7 +99,7 @@ namespace MyGame
                             control.MoveRight = false;
                         }
 
-                    }
+                    }*/
                   
                 }
             }

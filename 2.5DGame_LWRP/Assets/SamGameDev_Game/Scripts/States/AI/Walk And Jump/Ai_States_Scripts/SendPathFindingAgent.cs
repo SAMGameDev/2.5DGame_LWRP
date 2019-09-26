@@ -10,6 +10,7 @@ namespace MyGame
         StartWalking,
         JumpPlatform,
         FallPlatform,
+        StartRunning,
     }
 
     [CreateAssetMenu(fileName = "New State", menuName = "SamGame/Enemy_AI/SendPathFindingAgent")]
@@ -39,12 +40,14 @@ namespace MyGame
            if (control.aiProgress.findingAgent.StartWalk)
             {
                 animator.SetBool(EnemyTransitions.StartWalking.ToString(), true);
+                animator.SetBool(EnemyTransitions.StartRunning.ToString(), true);
             }
         }
 
         public override void OnExit(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
         {
             animator.SetBool(EnemyTransitions.StartWalking.ToString(), false);
+            animator.SetBool(EnemyTransitions.StartRunning.ToString(), false);
         }
     }
 }
