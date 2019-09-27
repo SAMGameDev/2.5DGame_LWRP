@@ -17,11 +17,13 @@ namespace MyGame
 
             if (dir.z > 0f)
             {
+                control.FaceForward(true);
                 control.MoveRight = true;
                 control.MoveLeft = false;
             }
             else
             {
+                control.FaceForward(false);
                 control.MoveLeft = true;
                 control.MoveRight = false;
             }

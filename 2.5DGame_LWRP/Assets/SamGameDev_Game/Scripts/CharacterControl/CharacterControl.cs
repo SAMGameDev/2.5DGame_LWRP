@@ -39,6 +39,7 @@ namespace MyGame
         public AnimationProgress animationProgress;
         public AIProgress aiProgress;
         public DamageDetector damageDetector;
+        public AIController AiController;
         //AI Attack Temp
 
         // public GameObject ColliderEdgePrefab;
@@ -101,7 +102,7 @@ namespace MyGame
             animationProgress = GetComponent<AnimationProgress>();
             aiProgress = GetComponentInChildren<AIProgress>();
             damageDetector = GetComponentInChildren<DamageDetector>();
-
+            AiController = GetComponentInChildren<AIController>();
 
             RegisterCharacter();
         }

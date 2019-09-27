@@ -33,7 +33,6 @@ namespace MyGame
         public override void UpdateAbility(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
         {
             CharacterControl control = characterState.GetCharacterControl(animator);
-
             Vector3 dist = control.aiProgress.findingAgent.startSphere.transform.position - control.transform.position;
 
             //Jumping, if startsphere is on lower platform than endphere
