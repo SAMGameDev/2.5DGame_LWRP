@@ -18,6 +18,10 @@ namespace MyGame
         public float speed;
         protected float BlockDistance = 0.1f;
 
+        [Header("Momentun")]
+        public bool useMomentum;
+        public float maxMomentum;
+
         public override void OnEnter(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
         {
             CharacterControl control = characterState.GetCharacterControl(animator);
@@ -35,6 +39,7 @@ namespace MyGame
             }
 
             control.animationProgress.thisAllowEarlyTurn = false;
+            control.animationProgress.AirMomentum = 0f;
         }
 
         public override void UpdateAbility(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
@@ -45,22 +50,69 @@ namespace MyGame
             {
                 animator.SetBool(TransitionParameter.Jump.ToString(), true);
             }
-
-            //punch animation
-            if (Constant)
+            if (useMomentum)
             {
-                ConstantMove(control, animator, stateInfo);
+                UpdateMomentum(characterState, animator, stateInfo);
             }
             else
             {
-                ControlledMove(control, animator, stateInfo);
+                //punch animation
+                if (Constant)
+                {
+                    ConstantMove(control, animator, stateInfo);
+                }
+                else
+                {
+                    ControlledMove(control, animator, stateInfo);
+                }
             }
-
         }
 
         public override void OnExit(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
         {
+            CharacterControl control = characterState.GetCharacterControl(animator);
 
+            control.animationProgress.AirMomentum = 0f;
+        }
+
+        private void UpdateMomentum(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
+        {
+            CharacterControl control = characterState.GetCharacterControl(animator);
+
+            if (control.MoveRight)
+            {
+                control.animationProgress.AirMomentum += speedGraph.Evaluate(stateInfo.normalizedTime) * Time.deltaTime;
+            }
+
+            if (control.MoveLeft)
+            {
+                control.animationProgress.AirMomentum -= speedGraph.Evaluate(stateInfo.normalizedTime) * Time.deltaTime;
+            }
+
+            if (Mathf.Abs(control.animationProgress.AirMomentum) >= maxMomentum)
+            {
+                if (control.animationProgress.AirMomentum > 0f)
+                {
+                    control.animationProgress.AirMomentum = maxMomentum;
+                }
+                else if (control.animationProgress.AirMomentum < 0f)
+                {
+                    control.animationProgress.AirMomentum = -maxMomentum;
+                }
+            }
+
+            if (control.animationProgress.AirMomentum > 0f)
+            {
+                control.FaceForward(true);
+            }
+            else if(control.animationProgress.AirMomentum < 0f)
+            {
+                control.FaceForward(false);
+            }
+            if(!CheckFront(control))
+            {
+                control.MoveForward(speed, Mathf.Abs(control.animationProgress.AirMomentum));
+            }  
         }
 
         private void ConstantMove(CharacterControl control, Animator animator, AnimatorStateInfo stateInfo)

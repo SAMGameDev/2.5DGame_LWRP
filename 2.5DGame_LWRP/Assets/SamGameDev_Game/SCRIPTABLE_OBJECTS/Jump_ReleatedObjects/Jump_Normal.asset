@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Jump_Normal
   m_EditorClassIdentifier: 
   JumpTiming: 0
-  JumpForce: 380
+  JumpForce: 350
   Pull:
     serializedVersion: 2
     m_Curve:

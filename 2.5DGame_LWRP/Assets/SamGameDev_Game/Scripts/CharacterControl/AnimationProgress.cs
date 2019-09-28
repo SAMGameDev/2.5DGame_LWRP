@@ -8,6 +8,7 @@ namespace MyGame
     {
         public bool Jumped;
         public bool thisAllowEarlyTurn;
+        public float AirMomentum;
 
     }
 }

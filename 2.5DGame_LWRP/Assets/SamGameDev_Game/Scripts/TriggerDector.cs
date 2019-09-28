@@ -11,7 +11,6 @@ namespace MyGame
         Arm,
         Leg,
     }
-
     public class TriggerDector : MonoBehaviour
     {
         public GeneralBodyParts generalBodyParts;
@@ -47,7 +46,6 @@ namespace MyGame
                 CollidingParts.Add(col);
             }
         }
-
         private void OnTriggerExit(Collider attacker)
         {
             if (CollidingParts.Contains(attacker))

@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: Jump_Normal_MoveForward
   m_EditorClassIdentifier: 
   Constant: 0
+  LockDirection: 0
+  AllowEarlyTurn: 0
   speedGraph:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
-      inSlope: 2
-      outSlope: 2
-      tangentMode: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
       weightedMode: 0
       inWeight: 0
       outWeight: 0
@@ -30,7 +32,7 @@ MonoBehaviour:
       value: 1
       inSlope: 0
       outSlope: 0
-      tangentMode: 0
+      tangentMode: 34
       weightedMode: 0
       inWeight: 0
       outWeight: 0
@@ -38,4 +40,5 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   speed: 3
-  BlockDistance: 0.1
+  useMomentum: 1
+  maxMomentum: 0.8

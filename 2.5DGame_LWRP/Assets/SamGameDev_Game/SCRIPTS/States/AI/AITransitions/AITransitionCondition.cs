@@ -12,6 +12,7 @@ namespace MyGame
         public enum AI_TransitionType
         {
             RUN_TO_WALK,
+            WALK_TO_RUN,
         }
 
         public AI_TransitionType aITransition;
@@ -44,6 +45,15 @@ namespace MyGame
                 Vector3 dist = characterControl.aiProgress.findingAgent.startSphere.transform.position - characterControl.transform.position;
 
                 if(Vector3.SqrMagnitude(dist) < 2f)
+                {
+                    return true;
+                }
+            }
+            else if(aITransition == AI_TransitionType.WALK_TO_RUN)
+            {
+                Vector3 dist = characterControl.aiProgress.findingAgent.startSphere.transform.position - characterControl.transform.position;
+
+                if (Vector3.SqrMagnitude(dist) > 2f)
                 {
                     return true;
                 }
