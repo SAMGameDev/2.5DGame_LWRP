@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\samim\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\samim\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_2.5DGame_LWRP.-168151289.00" t="ExcludeRecursive" />
+    <e p="C:\Users\samim\Unity Project_GitHub\2.5DGame_LWRP\2.5DGame_LWRP" t="IncludeRecursive">
+      <e p="2.5DGame_LWRP.sln" t="IncludeFlat" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="SamGameDev_Game" t="Include">
+          <e p="CAMERA_CONTROLLER" t="Include">
+            <e p="CameraController.cs" t="Include" />
+          </e>
+          <e p="DEATH" t="Include">
+            <e p="DeathAnimationData.cs" t="Include" />
+            <e p="Resources" t="Include">
+              <e p="DeathAnimationLoader.cs" t="Include" />
+            </e>
+          </e>
+          <e p="LAYER_ADDER" t="Include">
+            <e p="Editor" t="Include">
+              <e p="LayerAdderEditor.cs" t="Include" />
+              <e p="LayerChangerEditor.cs" t="Include" />
+            </e>
+            <e p="LayerAdder.cs" t="Include" />
+            <e p="LayerChanger.cs" t="Include" />
+          </e>
+          <e p="POOLEDOBJECTS" t="Include">
+            <e p="AttackInfos" t="Include">
+              <e p="Resources" t="Include">
+                <e p="AttackInfo.cs" t="Include" />
+              </e>
+            </e>
+            <e p="PoolObject.cs" t="Include" />
+            <e p="PoolObjectLoader.cs" t="Include" />
+          </e>
+          <e p="SCRIPTS" t="Include">
+            <e p="Camera" t="Include">
+              <e p="SimpleCameraController.cs" t="Include" />
+            </e>
+            <e p="CharacterControl" t="Include">
+              <e p="AnimationProgress.cs" t="Include" />
+              <e p="CharacterControl.cs" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="CharacterControlEditor.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Damage" t="Include">
+              <e p="DamageDetector.cs" t="Include" />
+            </e>
+            <e p="InputDevices" t="Include">
+              <e p="KeyboardInput.cs" t="Include" />
+            </e>
+            <e p="LedgeGrab" t="Include">
+              <e p="Ledge.cs" t="Include" />
+              <e p="LedgeChecker.cs" t="Include" />
+            </e>
+            <e p="Mangers" t="Include">
+              <e p="AttackManger.cs" t="Include" />
+              <e p="CameraManger.cs" t="Include" />
+              <e p="CharacterManager.cs" t="Include" />
+              <e p="DeathAnimationManger.cs" t="Include" />
+              <e p="PoolManger.cs" t="Include" />
+              <e p="VirtualInputManger.cs" t="Include" />
+            </e>
+            <e p="ManualInput.cs" t="Include" />
+            <e p="Path_Finding_Agent" t="Include">
+              <e p="Editor" t="Include">
+                <e p="PathFindingAgentEditor.cs" t="Include" />
+              </e>
+              <e p="Resources" t="Include">
+                <e p="PathFindingAgent.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Singleton.cs" t="Include" />
+            <e p="States" t="Include">
+              <e p="AI" t="Include">
+                <e p="AI_Run" t="Include">
+                  <e p="StartRunning.cs" t="Include" />
+                </e>
+                <e p="AIController.cs" t="Include" />
+                <e p="AIProgress.cs" t="Include" />
+                <e p="AISubSet.cs" t="Include" />
+                <e p="AITransitions" t="Include">
+                  <e p="AITransitionCondition.cs" t="Include" />
+                </e>
+                <e p="Walk And Jump" t="Include">
+                  <e p="Ai_States_Scripts" t="Include">
+                    <e p="FallPlatform.cs" t="Include" />
+                    <e p="JumpPlatform.cs" t="Include" />
+                    <e p="SendPathFindingAgent.cs" t="Include" />
+                    <e p="StartWalking.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="AllowEarlyTurn.cs" t="Include" />
+              <e p="Attack.cs" t="Include" />
+              <e p="CameraState.cs" t="Include" />
+              <e p="CharacterState.cs" t="Include" />
+              <e p="CheckMovement.cs" t="Include" />
+              <e p="CheckRunning.cs" t="Include" />
+              <e p="CheckRunningAndMovement.cs" t="Include" />
+              <e p="CheckRunningTurn.cs" t="Include" />
+              <e p="ForceTransition.cs" t="Include" />
+              <e p="GroundDetector.cs" t="Include" />
+              <e p="Idle.cs" t="Include" />
+              <e p="Jump.cs" t="Include" />
+              <e p="Landing.cs" t="Include" />
+              <e p="MoveForward.cs" t="Include" />
+              <e p="OffsetOnLedge.cs" t="Include" />
+              <e p="StatetData.cs" t="Include" />
+              <e p="TelePortOnLedge.cs" t="Include" />
+              <e p="ToggleBoxCollider.cs" t="Include" />
+              <e p="ToggleGravity.cs" t="Include" />
+              <e p="TransitionIndexer.cs" t="Include" />
+              <e p="Turn180.cs" t="Include" />
+            </e>
+            <e p="TriggerDector.cs" t="Include" />
+          </e>
+        </e>
+        <e p="TutorialInfo" t="Include">
+          <e p="SCRIPTS" t="Include">
+            <e p="Editor" t="Include">
+              <e p="ReadmeEditor.cs" t="Include" />
+            </e>
+            <e p="Readme.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
