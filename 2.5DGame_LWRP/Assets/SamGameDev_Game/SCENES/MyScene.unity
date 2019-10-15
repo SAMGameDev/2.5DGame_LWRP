@@ -179,7 +179,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 25364130}
-  m_LocalRotation: {x: 0.03044751, y: -0.6834472, z: 0.028550997, w: 0.7288058}
+  m_LocalRotation: {x: 0.030447511, y: -0.6834471, z: 0.028550996, w: 0.72880584}
   m_LocalPosition: {x: 5.4999914, y: 5.4534054, z: 8.077452}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1722,31 +1722,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1529463577}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1617897188 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7854761276807612113, guid: 49a902f6e89cc3e4fa99a9f9e35c9e6a,
+--- !u!95 &1617897189 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1617897189, guid: 49a902f6e89cc3e4fa99a9f9e35c9e6a,
     type: 3}
   m_PrefabInstance: {fileID: 8093077644751756825}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &1617897189
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1617897188}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7549942a0f77c454698e133a284a5874, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1626591050
 GameObject:
   m_ObjectHideFlags: 0
@@ -2144,11 +2125,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC
       objectReference: {fileID: 0}
-    - target: {fileID: 5449184997701366497, guid: f29d70330a20cfc498fb6ab9b9ec78e4,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5449184997701366301, guid: f29d70330a20cfc498fb6ab9b9ec78e4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2203,16 +2179,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2553462040910276329, guid: f29d70330a20cfc498fb6ab9b9ec78e4,
-        type: 3}
-      propertyPath: InitialAI
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3760692326764347454, guid: f29d70330a20cfc498fb6ab9b9ec78e4,
-        type: 3}
-      propertyPath: aI_Type
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f29d70330a20cfc498fb6ab9b9ec78e4, type: 3}
@@ -2351,10 +2317,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 69500307, guid: 2014addaa755a394ca6048e162bf5802, type: 3}
-      propertyPath: m_Enabled
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2014addaa755a394ca6048e162bf5802, type: 3}

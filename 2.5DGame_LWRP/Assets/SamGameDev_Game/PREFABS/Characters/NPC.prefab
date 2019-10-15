@@ -63,7 +63,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6611cc92e85831b4fb11e86c6a1490c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  aI_Type: 0
+  aI_Type: 1
 --- !u!1 &574974490688535815
 GameObject:
   m_ObjectHideFlags: 0
@@ -207,7 +207,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AIList: []
-  InitialAI: 0
+  InitialAI: 1
 --- !u!1 &574974491726600224
 GameObject:
   m_ObjectHideFlags: 0
@@ -932,6 +932,7 @@ MonoBehaviour:
   animationProgress: {fileID: 8325770967232221310}
   aiProgress: {fileID: 0}
   damageDetector: {fileID: 0}
+  AiController: {fileID: 0}
   BottomSpheres: []
   FrontSpheres: []
   gravityMultiplier: 0
@@ -967,6 +968,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Jumped: 0
   thisAllowEarlyTurn: 0
+  AirMomentum: 0
 --- !u!114 &111521401
 MonoBehaviour:
   m_ObjectHideFlags: 0
