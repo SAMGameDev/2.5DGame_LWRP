@@ -88,10 +88,8 @@ namespace MyGame
             }
 
             FaceForward(true);
-
             // SetRagdollParts();
             SetColliderSpheres();
-
 
             if (switchback)
             {
@@ -129,13 +127,6 @@ namespace MyGame
             }
             return TriggerDectors;
         }
-        /*   private IEnumerator Start()
-           {
-               yield return new WaitForSeconds(5f);
-               RIGIBODY.AddForce(200f * Vector3.up);
-               yield return new WaitForSeconds(0.5f);
-               TurnOnRagdoll();
-           } */
         public void SetRagdollParts()
         {
             RagdollParts.Clear();
@@ -157,8 +148,6 @@ namespace MyGame
                             c.gameObject.AddComponent<TriggerDector>();
                         }
                     }
-
-
                 }
             }
         }
@@ -246,7 +235,6 @@ namespace MyGame
         {
             transform.Translate(Vector3.forward * speed * speedGraph * Time.deltaTime);
         }
-
         public void FaceForward(bool forward)
         {
             if (forward)
@@ -268,30 +256,7 @@ namespace MyGame
             {
                 return false;
             }
-        }
-
-        /* public void ChangerMaterial()
-         {
-
-             if(material == null)
-             {
-                 Debug.LogError("No Material Specified");
-             }
-             Renderer[] arr_materials = this.gameObject.GetComponentsInChildren<Renderer>();
-
-
-             foreach (Renderer r in arr_materials)
-             {
-                 if (r.gameObject != this.gameObject)
-                 {
-                     r.material = material;
-                 }
-
-             }
-         }*/
-
-
-
+        }       
     }
 }
 

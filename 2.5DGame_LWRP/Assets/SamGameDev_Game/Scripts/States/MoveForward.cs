@@ -126,7 +126,6 @@ namespace MyGame
 
         private void ControlledMove(CharacterControl control, Animator animator, AnimatorStateInfo stateInfo)
         {
-
             if (control.MoveLeft && control.MoveRight)
             {
                 animator.SetBool(TransitionParameter.Move.ToString(), false);
