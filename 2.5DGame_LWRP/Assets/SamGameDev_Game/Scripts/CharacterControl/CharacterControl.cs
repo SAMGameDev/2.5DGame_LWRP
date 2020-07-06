@@ -204,11 +204,11 @@ namespace MyGame
         {
             if (RIGIBODY.velocity.y < 0f)
             {
-                RIGIBODY.velocity += (-Vector3.up * gravityMultiplier);
+                RIGIBODY.velocity += (-Vector3.up * gravityMultiplier) * Time.deltaTime;
             }
             if (RIGIBODY.velocity.y > 0f && !Jump)
             {
-                RIGIBODY.velocity += (-Vector3.up * pullMultiplier);
+                RIGIBODY.velocity += (-Vector3.up * pullMultiplier) * Time.deltaTime;
             }
         }
 
