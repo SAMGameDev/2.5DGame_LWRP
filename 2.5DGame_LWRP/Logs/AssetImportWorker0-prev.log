@@ -1,0 +1,364 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.10f1 (297d780c91bc) revision 2719096'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1023; Version 2009; 64bit' Language: 'en' Physical Memory: 8027 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/samim/Unity Project/2.5DGame_LWRP/2.5DGame_LWRP
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65081
+Successfully changed project path to: C:/Users/samim/Unity Project/2.5DGame_LWRP/2.5DGame_LWRP
+C:/Users/samim/Unity Project/2.5DGame_LWRP/2.5DGame_LWRP
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 225.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.10f1 (297d780c91bc)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/samim/Unity Project/2.5DGame_LWRP/2.5DGame_LWRP/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce MX130 (ID=0x174d)
+    Vendor:   
+    VRAM:     2010 MB
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004286 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 180.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.090 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011929 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 164.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.094 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 1.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3535 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.4 MB.
+System memory in use after: 144.6 MB.
+
+Unloading 124 unused Assets to reduce memory usage. Loaded Objects now: 3873.
+Total: 19.548600 ms (FindLiveObjects: 0.562100 ms CreateObjectMapping: 0.374800 ms MarkObjects: 14.596300 ms  DeleteObjects: 4.012400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/SamGameDev_Game
+  artifactKey: Guid(c4542240fd92a6740b755df9a30f4b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamGameDev_Game using Guid(c4542240fd92a6740b755df9a30f4b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f706acf582799ce34d7e9432d36da4ba') in 0.039071 seconds
+  Import took 0.049959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/SamGameDev_Game/Scripts
+  artifactKey: Guid(02a3527b6b33a924e8ec66aa805ea717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamGameDev_Game/Scripts using Guid(02a3527b6b33a924e8ec66aa805ea717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a913a0049096cde5d6a727232f232f') in 0.012438 seconds
+  Import took 0.023038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7829e2fb4a41f1166fc50fff53a3a55') in 0.059338 seconds
+  Import took 0.070645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/ForwardRenderer.asset
+  artifactKey: Guid(05f5a00ab4abbb147aadcab3a7ffcb24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ForwardRenderer.asset using Guid(05f5a00ab4abbb147aadcab3a7ffcb24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870c3ba24a5ab23c1ba2186f33c0fb4d') in 0.017310 seconds
+  Import took 0.028473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.460452 seconds.
+  path: Assets/SamGameDev_Game/Scripts/CharacterControl
+  artifactKey: Guid(d7267d3d9d9d0f34db22be4d67ceee24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamGameDev_Game/Scripts/CharacterControl using Guid(d7267d3d9d9d0f34db22be4d67ceee24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb454a0dcb06424c2b8ecd983eff675f') in 0.012366 seconds
+  Import took 0.024045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.347522 seconds.
+  path: Assets/SamGameDev_Game/Scripts/CharacterControl/CharacterControl.cs
+  artifactKey: Guid(7dd83ab5cec3b1244b3b0fd6259096e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamGameDev_Game/Scripts/CharacterControl/CharacterControl.cs using Guid(7dd83ab5cec3b1244b3b0fd6259096e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64634e8627b9bf2b41e1f1de77cdae8a') in 0.122692 seconds
+  Import took 0.133056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003764 seconds.
+  path: Assets/SamGameDev_Game/Scripts/CharacterControl/CharacterControl.cs
+  artifactKey: Guid(7dd83ab5cec3b1244b3b0fd6259096e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamGameDev_Game/Scripts/CharacterControl/CharacterControl.cs using Guid(7dd83ab5cec3b1244b3b0fd6259096e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64634e8627b9bf2b41e1f1de77cdae8a') in 0.004488 seconds
+  Import took 0.015755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.794264 seconds.
+  path: Assets/SamGameDev_Game/SCENES
+  artifactKey: Guid(b3bbbf799799452468068626c9ae4e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamGameDev_Game/SCENES using Guid(b3bbbf799799452468068626c9ae4e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2bd691b67422828d6925eb98a0d119a') in 0.019053 seconds
+  Import took 0.035139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.285098 seconds.
+  path: Assets/SamGameDev_Game/SCENES/PathFinding_Scene.unity
+  artifactKey: Guid(8f7971f8b1be5b3458b8e66eebd03447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamGameDev_Game/SCENES/PathFinding_Scene.unity using Guid(8f7971f8b1be5b3458b8e66eebd03447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5540b6aa7fcfb25679b51e6de507f27e') in 0.016561 seconds
+  Import took 0.029719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000895 seconds.
+  path: Assets/SamGameDev_Game/SCENES/PathFinding_Scene.unity
+  artifactKey: Guid(8f7971f8b1be5b3458b8e66eebd03447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamGameDev_Game/SCENES/PathFinding_Scene.unity using Guid(8f7971f8b1be5b3458b8e66eebd03447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5540b6aa7fcfb25679b51e6de507f27e') in 0.004276 seconds
+  Import took 0.015814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.648888 seconds.
+  path: Assets/SamGameDev_Game/SCENES/MyScene.unity
+  artifactKey: Guid(2054cc3629be55346b9301a17eae6013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamGameDev_Game/SCENES/MyScene.unity using Guid(2054cc3629be55346b9301a17eae6013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c9eeff42d3fe90e30cead05deff603') in 0.014259 seconds
+  Import took 0.025747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.905467 seconds.
+  path: Assets/SamGameDev_Game/SCENES/CharacterAdder.unity
+  artifactKey: Guid(bf7ff976452b0a345b1a3d8ce48fc5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamGameDev_Game/SCENES/CharacterAdder.unity using Guid(bf7ff976452b0a345b1a3d8ce48fc5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a93c666b0fcfad7275d02cefbfca23') in 0.014523 seconds
+  Import took 0.025730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 177.139243 seconds.
+  path: Assets/SamGameDev_Game/Scripts/ManualInput.cs
+  artifactKey: Guid(43b31a090151e924ba20ca92c12c8b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamGameDev_Game/Scripts/ManualInput.cs using Guid(43b31a090151e924ba20ca92c12c8b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f08336f796240c9ddf3477dc0200fe') in 0.016389 seconds
+  Import took 0.031047 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.136450 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.914 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3461 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.0 MB.
+System memory in use after: 141.2 MB.
+
+Unloading 115 unused Assets to reduce memory usage. Loaded Objects now: 3876.
+Total: 16.808200 ms (FindLiveObjects: 0.702400 ms CreateObjectMapping: 0.412100 ms MarkObjects: 11.598100 ms  DeleteObjects: 4.093300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 487.786766 seconds.
+  path: Assets/SamGameDev_Game/ANIMATIONS/Standing React Death Forward.fbx
+  artifactKey: Guid(b0a835880de020943b4a6dcc6139e84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamGameDev_Game/ANIMATIONS/Standing React Death Forward.fbx using Guid(b0a835880de020943b4a6dcc6139e84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ba28375b3060e109702ed498e36645') in 3.333336 seconds
+  Import took 3.345391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/SamGameDev_Game/ANIMATIONS/Jumping_Normal.fbx
+  artifactKey: Guid(30c5203a16984314e909e2a48c04b6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamGameDev_Game/ANIMATIONS/Jumping_Normal.fbx using Guid(30c5203a16984314e909e2a48c04b6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18679ba0dc64b62380a8534269f9d974') in 0.246697 seconds
+  Import took 0.268215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/SamGameDev_Game/ANIMATIONS/Surprise Uppercut_Prep.fbx
+  artifactKey: Guid(bb5d1e4f2d3111a46a52fb90ae501e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamGameDev_Game/ANIMATIONS/Surprise Uppercut_Prep.fbx using Guid(bb5d1e4f2d3111a46a52fb90ae501e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64e61224ce9c6c7be7b52061e1b446d') in 0.237479 seconds
+  Import took 0.248729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/SamGameDev_Game/ANIMATIONS
+  artifactKey: Guid(0c19ce270923b6b45a2551d62d69c5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamGameDev_Game/ANIMATIONS using Guid(0c19ce270923b6b45a2551d62d69c5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0884040200dd06537b20be983077fcf2') in 0.035745 seconds
+  Import took 0.046818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/SamGameDev_Game/Playable_Character_Animator.controller
+  artifactKey: Guid(9edba042ba7c64144bf6b493d5db7029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamGameDev_Game/Playable_Character_Animator.controller using Guid(9edba042ba7c64144bf6b493d5db7029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc665eaa3c1f4db459a76e2b0c9a562') in 1.132407 seconds
+  Import took 1.145330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000448 seconds.
+  path: Assets/SamGameDev_Game/ANIMATIONS/Lead Jab.fbx
+  artifactKey: Guid(526d9c20b888865448d0c5ffb0247558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamGameDev_Game/ANIMATIONS/Lead Jab.fbx using Guid(526d9c20b888865448d0c5ffb0247558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcded47b3b2233afb0f72214792e749e') in 0.130503 seconds
+  Import took 0.141560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/SamGameDev_Game/ANIMATIONS/Crouch Idle.fbx
+  artifactKey: Guid(ebcca8c4dce87ee4b8dd11ec6d7fc9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamGameDev_Game/ANIMATIONS/Crouch Idle.fbx using Guid(ebcca8c4dce87ee4b8dd11ec6d7fc9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cdfe809464749eae6b7c91141a98e3d') in 0.116196 seconds
+  Import took 0.127488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/SamGameDev_Game/ANIMATIONS/Jump_Prep.fbx
+  artifactKey: Guid(0aa2429e67acaf94084b5421ebaa4d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamGameDev_Game/ANIMATIONS/Jump_Prep.fbx using Guid(0aa2429e67acaf94084b5421ebaa4d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5964110856224b9bcae93436d4dc54b2') in 0.213521 seconds
+  Import took 0.225584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/SamGameDev_Game/ANIMATIONS/Landing.fbx
+  artifactKey: Guid(9ca2edb7a52702c42b74192939d60ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamGameDev_Game/ANIMATIONS/Landing.fbx using Guid(9ca2edb7a52702c42b74192939d60ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf408cdf72c784c8c60373001c89003') in 0.131962 seconds
+  Import took 0.142728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000448 seconds.
+  path: Assets/SamGameDev_Game/ANIMATIONS/Idle.fbx
+  artifactKey: Guid(9362d4de569269a4b9af8d59b966b8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamGameDev_Game/ANIMATIONS/Idle.fbx using Guid(9362d4de569269a4b9af8d59b966b8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe3cd484e71ac8370989f4b58eba1d3') in 0.135575 seconds
+  Import took 0.146444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/SamGameDev_Game/ANIMATIONS/Braced Hang To Crouch end.fbx
+  artifactKey: Guid(dfeb30ed131fd4e4f8070d5234e76735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamGameDev_Game/ANIMATIONS/Braced Hang To Crouch end.fbx using Guid(dfeb30ed131fd4e4f8070d5234e76735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784bbe1e5a2c63b8cfdaf0f08090fbd3') in 0.130053 seconds
+  Import took 0.140954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/SamGameDev_Game/ANIMATIONS/Running Turn 180.fbx
+  artifactKey: Guid(154b06bf345eb814ea14e5040bc2bf81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamGameDev_Game/ANIMATIONS/Running Turn 180.fbx using Guid(154b06bf345eb814ea14e5040bc2bf81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12afaab5d8bc7d9d16fd1bab7b550442') in 0.119923 seconds
+  Import took 0.131185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/SamGameDev_Game/ANIMATIONS/Braced Hang To Crouch start.fbx
+  artifactKey: Guid(fdcb4ca39635f924e99752c5297fca8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamGameDev_Game/ANIMATIONS/Braced Hang To Crouch start.fbx using Guid(fdcb4ca39635f924e99752c5297fca8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2563d3d18b22ae3b0234b555149815b') in 0.121296 seconds
+  Import took 0.132363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/SamGameDev_Game/ANIMATIONS/Running.fbx
+  artifactKey: Guid(2f0306d509074f04b8e20e36faaebd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamGameDev_Game/ANIMATIONS/Running.fbx using Guid(2f0306d509074f04b8e20e36faaebd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f547d43134d32fcbb097a96d8230ffb5') in 0.156087 seconds
+  Import took 0.166996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/SamGameDev_Game/ANIMATIONS/Soccer Tackle.fbx
+  artifactKey: Guid(266f2e26f6ebc3941b28711abff2cbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamGameDev_Game/ANIMATIONS/Soccer Tackle.fbx using Guid(266f2e26f6ebc3941b28711abff2cbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7973846e0ffa4124721052cce81200d5') in 0.204271 seconds
+  Import took 0.215213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/SamGameDev_Game/ANIMATIONS/Run To Stop.fbx
+  artifactKey: Guid(0124c8044506d754ba1031c92713a96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamGameDev_Game/ANIMATIONS/Run To Stop.fbx using Guid(0124c8044506d754ba1031c92713a96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f648188c491f80346496a6941242b5') in 0.161425 seconds
+  Import took 0.174522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/SamGameDev_Game/ANIMATIONS/Falling Idle.fbx
+  artifactKey: Guid(648b08d6ad19b6245baabc50c6861afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamGameDev_Game/ANIMATIONS/Falling Idle.fbx using Guid(648b08d6ad19b6245baabc50c6861afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acdb39e0d4b73559c23c53d080ea944b') in 0.122942 seconds
+  Import took 0.134048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/SamGameDev_Game/ANIMATIONS/Surprise Uppercut DEath.fbx
+  artifactKey: Guid(8538ef82a31aa3e41906c233f1a0b805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamGameDev_Game/ANIMATIONS/Surprise Uppercut DEath.fbx using Guid(8538ef82a31aa3e41906c233f1a0b805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209ce8d87134f3f716f463d215751bff') in 0.186495 seconds
+  Import took 0.197570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/SamGameDev_Game/ANIMATIONS/Flying Back Death.fbx
+  artifactKey: Guid(b4189e398720f184d8bfae7d8a834185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamGameDev_Game/ANIMATIONS/Flying Back Death.fbx using Guid(b4189e398720f184d8bfae7d8a834185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a896de3ff55a91acc2f4740ee5fb2166') in 0.208959 seconds
+  Import took 0.220032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/SamGameDev_Game/ANIMATIONS/Walking.fbx
+  artifactKey: Guid(5cdaf5193a234d54a9a72b076b1eacaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamGameDev_Game/ANIMATIONS/Walking.fbx using Guid(5cdaf5193a234d54a9a72b076b1eacaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba7e757c4c97c3de2b5ce9f6996946f') in 0.213723 seconds
+  Import took 0.225685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/SamGameDev_Game/ANIMATIONS/Surprise Uppercut.fbx
+  artifactKey: Guid(d73f5623904b4ff4fa9a6669d665cf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamGameDev_Game/ANIMATIONS/Surprise Uppercut.fbx using Guid(d73f5623904b4ff4fa9a6669d665cf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851cfa42594bfb0c72ccaa6e70f8ddbd') in 0.196813 seconds
+  Import took 0.208007 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
